@@ -12,12 +12,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-    
-
-        <script type="text/javascript">
-            
-            window.Telegram.WebApp.ready(); window.Telegram.WebApp.expand();
-        </script>
     <script src="js/qrcode.js"></script>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
@@ -376,13 +370,14 @@ background-color: #111013;
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            // Check if the Telegram WebApp is initialized
             if (typeof Telegram !== "undefined" && Telegram.WebApp.initData) {
-                document.body.style.display = "block"; // Show content if in Telegram
+                // Ensure the Telegram WebApp is initialized and ready
                 Telegram.WebApp.ready();
                 Telegram.WebApp.expand();
+                document.body.style.display = "block"; // Show content if in Telegram
             } else {
                 document.body.style.display = "none"; // Hide content if outside Telegram
+                console.error("Telegram WebApp is not initialized or this page is not accessed via Telegram.");
             }
         });
     </script>

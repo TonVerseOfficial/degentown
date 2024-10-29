@@ -39,7 +39,7 @@ const WelcomePage = () => {
       </div>
 
       {/* Play Now Button */}
-      <a href="https://x.com/degentown_ton" target="_blank" rel="noreferrer"
+      <a href="https://t.me/degentown_bot" target="_blank" rel="noreferrer"
       className="mt-20 md:mt-0">
         <div className="relative mt-4 cursor-pointer transform transition-transform duration-300 hover:scale-110">
           <img

@@ -33,7 +33,7 @@ const Marquee = () => {
     const texts = [
         `First ${numberToKString(walletNumber)} USERS SIGNED UP!`,
         `AIRDROP S1 IS LIVE EARN POINTS AND MOVE UP`,
-        `SEED SALE FIRST ${numberToKString(raised)} RAISED`,
+        `SEED SALE FIRST ${numberToKString(raised)} $ RAISED`,
         `AIRDROP S1 IS LIVE EARN POINTS AND MOVE UP`,
         `AIRDROP SEASON 1 LIVE`,
         `AIRDROP S1 IS LIVE EARN POINTS AND MOVE UP`,

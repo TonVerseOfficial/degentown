@@ -20,13 +20,18 @@ const Header = () => {
     window.location.href = url;
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <>
       {/* Mobile Header */}
       <div className="w-full bg-white block md:hidden">
         <div className="flex flex-row justify-between items-center">
           {/* Logo */}
-          <div className="flex">
+          <div className="flex cursor-pointer transform transition-transform duration-300 hover:scale-105"
+          onClick={scrollToTop}>
             <img src={logoImg} alt="logo" className="h-20 -ml-10" />
           </div>
 
@@ -105,7 +110,9 @@ const Header = () => {
       {/* Web Header */}
       <div className="w-full hidden md:flex flex-wrap items-center justify-between md:space-x-6 bg-white">
         {/* Logo */}
-        <div className="flex-shrink-0 mx-4 md:ml-20">
+        <div className="flex-shrink-0 mx-4 md:ml-20 cursor-pointer transform transition-transform duration-300 hover:scale-105"
+        onClick={scrollToTop}
+        >
           <img src={logoImg} alt="logo" className="h-14 md:h-20" />
         </div>
 

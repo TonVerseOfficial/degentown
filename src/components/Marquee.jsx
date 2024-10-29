@@ -1,27 +1,27 @@
 import React, { useEffect, useState } from "react";
 
 const Marquee = () => {
-  const [walletNumber, setWalletNumber] = useState(1634461);
-  const [raised, setRaised] = useState(981814);
+  const [walletNumber, setWalletNumber] = useState(42);
+  const [raised, setRaised] = useState(126);
 //   fetchData
 
   const numberToKString = (number) => {
     if (number > 999) {
       return `${Math.floor(number / 1000)}K`;
     }
-    return number;
+    return Math.floor(number);
   };
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const responseUSD = await fetch('https://vds.mertcantoglu.xyz/crypto-api/income');
+        const responseUSD = await fetch('https://telegram-bot-degen-town.replit.app/api/total-deposits');
         const data = await responseUSD.json();
-        setRaised(data.total_income_usd);        
+        setRaised(data.totalDepositsInUsd || 126);        
 
-        const responseWallet = await fetch('https://frontend.papo.ninja/api/system/status');
+        const responseWallet = await fetch('https://telegram-bot-degen-town.replit.app/api/player-count');
         const dataWallet = await responseWallet.json();
-        setWalletNumber(data.dataWallet.data.users);   
+        setWalletNumber(data.dataWallet.count || 42);   
       } catch (error) {
         console.error('Error fetching data:', error);
       }
@@ -30,21 +30,14 @@ const Marquee = () => {
     fetchData();
   }, []);
 
-  const fetchNumbers = async () => {
-    const response = await fetch("https://api.example.com/numbers");
-    const data = await response.json();
-    return data;
-  };
-
-
     const texts = [
         `First ${numberToKString(walletNumber)} USERS SIGNED UP!`,
-        `AIRDROP S2 IS LIVE EARN POINTS AND MOVE UP`,
+        `AIRDROP S1 IS LIVE EARN POINTS AND MOVE UP`,
         `SEED SALE FIRST ${numberToKString(raised)} RAISED`,
-        `AIRDROP S2 IS LIVE EARN POINTS AND MOVE UP`,
-        `AIRDROP SEASON 2 LIVE`,
-        `AIRDROP S2 IS LIVE EARN POINTS AND MOVE UP`,
-        `AIRDROP SEASON 2 LIVE`,
+        `AIRDROP S1 IS LIVE EARN POINTS AND MOVE UP`,
+        `AIRDROP SEASON 1 LIVE`,
+        `AIRDROP S1 IS LIVE EARN POINTS AND MOVE UP`,
+        `AIRDROP SEASON 1 LIVE`,
     ];
 
 

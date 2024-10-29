@@ -20,7 +20,7 @@ function App() {
       <WelcomePage />
       <div
         className='flex items-center justify-center'>
-        {/* Social Media Icons */}
+     
 
         <div className="flex flex-row  space-x-2 md:space-x-10  mt-20 md:mt-32">
           <a href="https://x.com/degentown_ton" target="_blank" rel="noreferrer">

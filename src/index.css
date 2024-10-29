@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --shadow-color: #80B4FF; /* Varsayılan shadow rengi */
+}
+
+
+@font-face {
+  font-family: 'SuperMario246';
+  src: url('./assets/fonts/SuperMario256.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BouncyBluePersonalBlue';
+  src: url('./assets/fonts/BouncyBluePersonal-B.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BouncyBlueColor';
+  src: url('./assets/fonts/BouncycolorPersonalB.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.text-outline {
+  color: white;
+  -webkit-text-stroke: 3px #80B4FF; /* Tailwind'in blue-500 rengi */
+  font-weight: 700;
+}
+
+.blocky-shadow {
+  text-shadow:
+  4px 4px 0px var(--shadow-color),
+  -4px 4px 0px var(--shadow-color),
+  4px -4px 0px var(--shadow-color),
+  -4px -4px 0px var(--shadow-color),
+  4px 0px 0px var(--shadow-color),
+  -4px 0px 0px var(--shadow-color),
+  0px 4px 0px var(--shadow-color),
+  0px -4px 0px var(--shadow-color);
+}
+
+
+@keyframes marquee {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 15s linear infinite;
+}
+

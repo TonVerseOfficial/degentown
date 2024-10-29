@@ -315,6 +315,7 @@ function copyLink() {
     font-style: normal;
 }
 
+
         body, html {
       background-image: url("assets/img/background_screen_overlay.png");
       background-size: cover;
@@ -327,6 +328,7 @@ function copyLink() {
             font-weight: 400;
             color: white !important;
     font-family: 'Roboto', sans-serif;
+    display: none;
     
         }
 
@@ -2363,7 +2365,15 @@ function showCopyPopup() {
         }
     </script>
 
-
+  <script>
+    // Check for Telegram browser using user agent
+    if (navigator.userAgent.includes("Telegram")) {
+      document.getElementById("body").style.display = "block";  // Show Telegram-specific content
+      document.getElementById("non-telegram-content").classList.add("hidden");
+    } else {
+      document.getElementById("non-telegram-content").classList.remove("hidden"); // Show non-Telegram message
+    }
+  </script>
 
 <script>
 

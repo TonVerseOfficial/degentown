@@ -1,9 +1,7 @@
 import React, { useEffect } from "react";
 import TextImg from "../../assets/images/title.svg";
-import heroimg2 from "../../assets/images/heroImg2.svg";
-import modalLogo from "../../assets/images/modalLogo.png";
-import modalTitle from "../../assets/images/Image.svg";
-import modalImg1 from "../../assets/images/modalImg1.svg";
+
+
 import frogMen from "../../assets/images/degenFrog.svg";
 import { Button } from "@mui/material";
 import { Link } from "react-router-dom";

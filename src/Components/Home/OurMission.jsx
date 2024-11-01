@@ -1,9 +1,8 @@
 import React from "react";
-import secuirty1 from "../../assets/images/10 2.png";
-import secuirty2 from "../../assets/images/12 10.png";
+
 import tonBottleRight from '../../assets/images/tonBottleRight.png';
 import tonLogoLeft from '../../assets/images/tonLogoLeft.png';
-import home5 from "../../assets/images/home5.svg";
+
 
 const StyledParagraph = ({ children }) => {
   return (

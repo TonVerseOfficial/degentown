@@ -1,6 +1,6 @@
 import React from "react";
 import coin from "../../assets/images/RoadMapicon.png";
-import secuirty2 from "../../assets/images/12 10.png";
+
 export default function Roadmap() {
   return (
     <>

@@ -2,17 +2,14 @@ import React from 'react';
 //import papo from '../../assets/images/papo.svg';
 import magnet from '../../assets/images/magnet.svg';
 import hammer from '../../assets/images/hammer.svg'; 
-import papo1 from '../../assets/images/papo1.svg';
-import papo2 from '../../assets/images/papo2.svg';
-import papo3 from '../../assets/images/papo3.svg';
-import papo4 from '../../assets/images/papo4.svg';
+
 
 import degenPeople1 from '../../assets/images/degenPeople1.png';
 import degenPeople2 from '../../assets/images/degenPeople2.png';
 import degenPeople3 from '../../assets/images/degenPeople3.png';
 import degenPeople4 from '../../assets/images/degenPeople4.png';
 
-import papo5 from '../../assets/images/12.png';
+
 import { Button, Link } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 export default function RockingTn() {

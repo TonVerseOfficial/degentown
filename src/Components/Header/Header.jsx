@@ -1,15 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from '@mui/material';
 import Logo from '../../assets/images/title.svg';
-
 import papoIcon from '../../assets/images/Vector.svg';
 import { Link } from 'react-router-dom';
 import Marquee from '../../Components/Home/Marquee';
+
+import approvedIcon from '../../assets/images/approvedIcon.svg';
+import swordIcon from '../../assets/images/swordIcon.svg';
+import playIcon from '../../assets/images/playIcon.svg';
 
 export default function Header({ isHeaderFixed }) {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
   const headerOffset = 60;
 
+
+
+  const buttonLink = 'https://t.me/degentown_bot';
   useEffect(() => {
     // Scroll to the top when the component mounts
     window.scrollTo({
@@ -53,7 +59,14 @@ export default function Header({ isHeaderFixed }) {
     <div className={`headerMain ${isHeaderFixed ? 'headerFixed' : 'headerNotFixed'} ${!isNavCollapsed ? 'expanded' : ''}`}>
       <nav className={`navbar navbar-expand-lg p-0 ${!isNavCollapsed ? 'nav-expanded' : ''}`}>
         <div className="container-fluid manageSection">
-          <a className="navbar-brand" href="/">
+          <a className="navbar-brand" onClick={() => 
+            {
+              window.scrollTo({
+                top: 0,
+                behavior: 'smooth',
+              });
+            }
+          }>
             <img src={Logo} alt="Papo Coin Logo" />
           </a>
           <button
@@ -101,23 +114,37 @@ export default function Header({ isHeaderFixed }) {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link navLink" to="https://t.me/papo_official_bot">
-                  <Button className='airDropBtn' variant='contained'><img src={papoIcon} alt="" />  <span className='btnSpan'>AIRDROP</span></Button>
+                <Link className="nav-link navLink" to={buttonLink}>
+                  <Button className='airDropBtn' variant='contained'
+                  style={{
+                    border: '2px solid #FFB000',
+                    textShadow: '  -4px 0px 0px #FFCB00,4px 0px 0px #FFCB00,0px -4px 0px #FFCB00,0px 4px 0px #FFCB00,-4px 4px 0px #FFCB00, 4px 4px 0px #FFCB00, 4px -4px 0px #FFCB00, -4px -4px 0px #FFCB00,0px 6px 0px #000000 ',
+                    
+                  }}
+                  ><img src={approvedIcon} alt="" />  <span className='btnSpan'>AIRDROP</span></Button>
                 </Link>
               </li>
               <li className="nav-item d-lg-none d-block">
-                <Link className="nav-link navLink" to="https://t.me/papo_official_bot">
-                  <Button className='earnPoinBtn' variant='contained'><img src={Logo} alt="" /> <span className='btnSpan'>EARN POINTS</span></Button>
+                <Link className="nav-link navLink" to={buttonLink}>
+                  <Button className='earnPoinBtn' variant='contained'><img src={swordIcon} alt="" /> <span className='btnSpan'>EARN POINTS</span></Button>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link navLink" to="https://t.me/papo_official_bot">
-                  <Button className='joinSeeBtn' variant='contained'><img src={Logo} alt="" /><span className='btnSpan'>JOIN SEED SALE</span></Button>
+                <Link className="nav-link navLink" to={buttonLink}>
+                  <Button className='airDropBtn' variant='contained'
+                  style={{
+                    backgroundColor: '#ACD5F4 !important',
+                    boxShadow: 'none' ,
+                    border: 'none',
+                    textShadow:'none'
+                   
+                  }}
+                  ><img src={playIcon} alt="" /><span className='btnSpan'>PLAY</span></Button>
                 </Link>
               </li>
               <li className="nav-item d-lg-block d-none">
-                <Link className="nav-link navLink" to="https://t.me/papo_official_bot">
-                  <Button className='earnPoinBtn' variant='contained'><img src={Logo} alt="" /> <span className='btnSpan'>EARN POINTS</span></Button>
+                <Link className="nav-link navLink" to={buttonLink}>
+                  <Button className='earnPoinBtn' variant='contained'><img src={swordIcon} alt="" /> <span className='btnSpan'>EARN POINTS</span></Button>
                 </Link>
               </li>
             </ul>

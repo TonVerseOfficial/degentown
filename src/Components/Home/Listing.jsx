@@ -4,25 +4,23 @@ import Honey2 from "../../assets/images/honeystone.png";
 
 const Styledh = ({ children }) => {
   return (
+    <div className="hugeContent">
     <h2
+    className="text-start"
       style={{
         fontFamily: "Dela Gothic One",
-        fontSize: 45,
-        fontWeight: 400,
-        lineHeight: "50px",
-        textAlign: "left",
-        color: "#000000",
       }}
     >
       {children}
     </h2>
+    </div>
   );
 };
 
 export default function Listing() {
   return (
     <>
-      <div className="manageSection listingSec">
+      <div className="manageWidth manageSection listingSec">
         <div className="mainTitle pt-3">
           <h6 className="text-center">GOING LIVE</h6>
           <h5 className="text-center">THE LISTING</h5>

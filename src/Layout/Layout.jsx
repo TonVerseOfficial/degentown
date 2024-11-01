@@ -7,16 +7,16 @@ import { Outlet } from 'react-router-dom';
 export default function Layout() {
 
     const [raisedAmount, setRaisedAmount] = useState(700000);
-    const [totalUsers, setTotalUsers] = useState(590000);
+    const [totalUsers, setTotalUsers] = useState(865);
 
     useEffect(() => {
-        fetch("https://vds.mertcantoglu.xyz/crypto-api/income")
+        fetch("https://telegram-bot-degen-town.replit.app/api/total-deposits")
             .then(response => response.json())
-            .then(data => setRaisedAmount(data.total_income_usd));
+            .then(data => setRaisedAmount(data.totalDepositsInUsd));
 
-        fetch("https://frontend.papo.ninja/api/system/status")
+        fetch("https://telegram-bot-degen-town.replit.app/api/player-count")
             .then(response => response.json())
-            .then(data => setTotalUsers(data.data.users));
+            .then(data => setTotalUsers(data.count));
 
     }, []);
 

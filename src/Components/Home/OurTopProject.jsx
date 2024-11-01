@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import potentialLi from "../../assets/images/PAPO HONEY POT 1.svg";
+import potentialLi from "../../assets/images/RoadMapicon.png";
 import upgradeImg from "../../assets/images/phoneApp2.png";
 import honey from "../../assets/images/blueMen.png";
 import Coin from "../../assets/images/RoadMapicon.png";

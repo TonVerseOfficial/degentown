@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import potentialLi from "../../assets/images/RoadMapicon.webp";
+import potentialLi from "../../assets/images/roadmapIcon.webp";
 import upgradeImg from "../../assets/images/phoneApp2.webp";
 import honey from "../../assets/images/blueMen.webp";
-import Coin from "../../assets/images/RoadMapicon.webp";
+import Coin from "../../assets/images/roadmapIcon.webp";
 import Progress from "../../assets/images/progress.webp";
 import project5 from "../../assets/images/project5.svg";
 import project6 from "../../assets/images/project6.svg";

@@ -1,5 +1,5 @@
 import React from "react";
-import coin from "../../assets/images/RoadMapicon.png";
+import coin from "../../assets/images/RoadMapicon.webp";
 
 export default function Roadmap() {
   return (

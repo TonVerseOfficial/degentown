@@ -1,6 +1,6 @@
 import React from "react";
-import potentialLi from "../../assets/images/userLi.png";
-import home2 from "../../assets/images/home1.png";
+import potentialLi from "../../assets/images/userLi.webp";
+import home2 from "../../assets/images/home1.webp";
 export default function ThePotential() {
   return (
     <>

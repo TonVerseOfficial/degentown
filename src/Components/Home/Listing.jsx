@@ -1,6 +1,6 @@
 import React from "react";
-import potentialLi from "../../assets/images/roadmapIcon.png";
-import Honey2 from "../../assets/images/honeystone.png";
+import potentialLi from "../../assets/images/roadmapIcon.webp";
+import Honey2 from "../../assets/images/honeystone.webp";
 
 const Styledh = ({ children }) => {
   return (

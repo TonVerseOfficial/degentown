@@ -1,6 +1,6 @@
 import React from 'react';
-import potentialLi from '../../assets/images/userLiRounded.png';
-import winWithUsImg from '../../assets/images/pickaxeDuck.png';
+import potentialLi from '../../assets/images/userLiRounded.webp';
+import winWithUsImg from '../../assets/images/pickaxeDuck.webp';
 
 export default function WinWithUs() {
     return (

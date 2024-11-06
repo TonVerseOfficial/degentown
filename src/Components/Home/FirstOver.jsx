@@ -1,8 +1,8 @@
 import React from 'react';
-import potentialLi from '../../assets/images/userLiRounded.png';
+import potentialLi from '../../assets/images/userLiRounded.webp';
 import home3 from '../../assets/images/home3.svg';
 import home4 from '../../assets/images/home4.svg';
-import phoneApp from '../../assets/images/phoneApp.png';
+import phoneApp from '../../assets/images/phoneApp.webp';
 export default function FirstOver() {
     return (
         <>

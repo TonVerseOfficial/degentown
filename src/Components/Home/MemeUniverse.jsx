@@ -5,7 +5,7 @@ import potential3 from '../../assets/images/image 21.svg';
 import potential4 from '../../assets/images/image 20.svg';
 import potential5 from '../../assets/images/image 25.svg';
 import potential6 from '../../assets/images/image 24.svg';
-import home2 from '../../assets/images/home2.png';
+import home2 from '../../assets/images/home2.webp';
 import home5 from '../../assets/images/home5.svg';
 import { Button } from '@mui/material';
 

@@ -615,7 +615,7 @@ body::-webkit-scrollbar-thumb {
 
 
 .thePatentialSec {
-    background-image: url(../images//potentialBack.png);
+    background-image: url(../images//potentialBack.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -678,7 +678,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .memeUniverseSec {
-    background-image: url(../images//universeBack.png);
+    background-image: url(../images//universeBack.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -738,7 +738,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .marketsSec {
-    background-image: url(../images/firstMover.png);
+    background-image: url(../images/firstMover.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -1097,7 +1097,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .roadMapSection {
-    background-image: url(../images/RoadMapBackground.png);
+    background-image: url(../images/RoadMapBackground.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1349,7 +1349,7 @@ body::-webkit-scrollbar-thumb {
 
 .btn-close {
     position: absolute;
-    background-image: url(../images/close.png);
+    background-image: url(../images/close.webp);
     right: 12px;
     top: 12px;
     width: 40px !important;
@@ -3745,7 +3745,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .mobileSec {
-        background-image: url(../images/rectangle.png);
+        background-image: url(../images/rectangle.webp);
         background-repeat: no-repeat;
         background-position: right;
         background-size: contain;

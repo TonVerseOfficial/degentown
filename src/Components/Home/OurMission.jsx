@@ -1,7 +1,7 @@
 import React from "react";
 
-import tonBottleRight from '../../assets/images/tonBottleRight.png';
-import tonLogoLeft from '../../assets/images/tonLogoLeft.png';
+import tonBottleRight from '../../assets/images/tonBottleRight.webp';
+import tonLogoLeft from '../../assets/images/tonLogoLeft.webp';
 
 
 const StyledParagraph = ({ children }) => {

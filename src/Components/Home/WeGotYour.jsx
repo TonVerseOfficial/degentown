@@ -5,7 +5,7 @@ import project3 from '../../assets/images/project3.svg';
 import project4 from '../../assets/images/project4.svg';
 import project5 from '../../assets/images/project5.svg';
 import project6 from '../../assets/images/project6.svg';
-import winWithUsImg from '../../assets/images/winWithUsImg.png';
+import winWithUsImg from '../../assets/images/winWithUsImg.webp';
 import { Link } from 'react-router-dom';
 
 export default function WeGotYour() {

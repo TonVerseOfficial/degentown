@@ -1,7 +1,7 @@
 import React from "react";
 import ninjaUni from "../../assets/images/ninjaUni.svg";
-import ninjaUni2 from "../../assets/images/ninjaUni.png";
-import degenUni from "../../assets/images/degenUni.png";
+import ninjaUni2 from "../../assets/images/ninjaUni.webp";
+import degenUni from "../../assets/images/degenUni.webp";
 import tonBig from "../../assets/images/tonBig.svg";
 import { Link } from "react-router-dom";
 

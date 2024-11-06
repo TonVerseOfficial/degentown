@@ -1,6 +1,6 @@
 import React from "react";
-import tonKeeper from "../../assets/images/tonKeeperWallet.png";
-import buyTon from "../../assets/images/buyTon.png";
+import tonKeeper from "../../assets/images/tonKeeperWallet.webp";
+import buyTon from "../../assets/images/buyTon.webp";
 const HowToDegen = () => {
   return (
     <>

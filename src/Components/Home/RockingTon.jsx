@@ -4,10 +4,10 @@ import magnet from '../../assets/images/magnet.svg';
 import hammer from '../../assets/images/hammer.svg'; 
 
 
-import degenPeople1 from '../../assets/images/degenPeople1.png';
-import degenPeople2 from '../../assets/images/degenPeople2.png';
-import degenPeople3 from '../../assets/images/degenPeople3.png';
-import degenPeople4 from '../../assets/images/degenPeople4.png';
+import degenPeople1 from '../../assets/images/degenPeople1.webp';
+import degenPeople2 from '../../assets/images/degenPeople2.webp';
+import degenPeople3 from '../../assets/images/degenPeople3.webp';
+import degenPeople4 from '../../assets/images/degenPeople4.webp';
 
 
 import { Button, Link } from '@mui/material';

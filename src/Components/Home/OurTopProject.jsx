@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import potentialLi from "../../assets/images/RoadMapicon.png";
-import upgradeImg from "../../assets/images/phoneApp2.png";
-import honey from "../../assets/images/blueMen.png";
-import Coin from "../../assets/images/RoadMapicon.png";
-import Progress from "../../assets/images/progress.png";
+import potentialLi from "../../assets/images/RoadMapicon.webp";
+import upgradeImg from "../../assets/images/phoneApp2.webp";
+import honey from "../../assets/images/blueMen.webp";
+import Coin from "../../assets/images/RoadMapicon.webp";
+import Progress from "../../assets/images/progress.webp";
 import project5 from "../../assets/images/project5.svg";
 import project6 from "../../assets/images/project6.svg";
-import winWithUsImg from "../../assets/images/winWithUsImg.png";
+import winWithUsImg from "../../assets/images/winWithUsImg.webp";
 
 const Styledh = ({ children }) => {
   return (

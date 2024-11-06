@@ -1,6 +1,6 @@
 import React from 'react';
 import papoTon1 from '../../assets/images/ton2-new.webp';
-import tonBig from '../../assets/images/tonlogo.webp';
+import tonBig from '../../assets/images/tonLogo.webp';
 import { Link } from 'react-router-dom';
 
 export default function HowToGetTon() {

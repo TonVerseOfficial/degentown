@@ -1,5 +1,4 @@
 import React from 'react'
-// import airdrop from '../../assets/images/airdrop.svg';
 import airdrop from '../../assets/images/airdropBg.webp'
 import { Button } from '@mui/material';
 import { Link } from 'react-router-dom';

@@ -1,7 +1,7 @@
 import React from 'react';
 //import ton1 from '../../assets/images/ton1.svg';
-import ton1 from '../../assets/images/ton2new.webp';
-import ton2 from '../../assets/images/ton1new.webp';
+import ton1 from '../../assets/images/ton2New.webp';
+import ton2 from '../../assets/images/ton1New.webp';
 
 
 export default function TheBlockchain() {

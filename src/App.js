@@ -5,8 +5,8 @@ import WelcomePage from './components/WelcomePage';
 import Marquee from './components/Marquee';
 import Header from './components/Header';
 import OurMission from './components/OurMission';
-import telegramLogo from "./assets/images/telegramLogo.png";
-import twitterLogo from "./assets/images/twitterLogo.png";
+import telegramLogo from "./assets/images/telegramLogo.webp";
+import twitterLogo from "./assets/images/twitterLogo.webp";
 
 
 function App() {

@@ -1,7 +1,7 @@
 import React from "react";
 
-import tonBottle from "../assets/images/tonBottle.png";
-import tonLogo from "../assets/images/tonLogo.png";
+import tonBottle from "../assets/images/tonBottle.webp";
+import tonLogo from "../assets/images/tonLogo.webp";
 
 const OurMission = () => {
   return (

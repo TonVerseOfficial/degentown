@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import logoImg from "../assets/images/logo.png";
-import approvedImg from "../assets/images/airdropbutton.png";
-import playButtonImg from "../assets/images/playbuttonImg.png";
-import earnImg from "../assets/images/earnbuttonimg.png";
+import logoImg from "../assets/images/logo.webp";
+import approvedImg from "../assets/images/airdropbutton.webp";
+import playButtonImg from "../assets/images/playbuttonImg.webp";
+import earnImg from "../assets/images/earnbuttonimg.webp";
 import MenuIcon from '@mui/icons-material/Menu';
 
 const links = [
@@ -16,7 +16,7 @@ const Header = () => {
 
   // URL yönlendirme fonksiyonu
   const handleRedirect = (url) => {
-    url = 'https://t.me/degentown_bot'
+    url = 'https://t.me/degen_town_bot'
     window.location.href = url;
   };
 

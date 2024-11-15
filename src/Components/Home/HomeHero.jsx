@@ -75,7 +75,7 @@ export default function HomeHero() {
 
       </div>
       <div className="text-center">
-        <Link to="https://t.me/degentown_bot">
+        <Link to="https://t.me/degen_town_bot">
           <Button variant="contained" className="claimBtn">
             PLAY NOW
           </Button>

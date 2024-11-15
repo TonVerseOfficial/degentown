@@ -15,7 +15,7 @@ export default function Header({ isHeaderFixed }) {
 
 
 
-  const buttonLink = 'https://t.me/degentown_bot';
+  const buttonLink = 'https://t.me/degen_town_bot';
   useEffect(() => {
     // Scroll to the top when the component mounts
     window.scrollTo({

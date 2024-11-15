@@ -15,7 +15,7 @@ import { useNavigate } from 'react-router-dom';
 export default function RockingTn() {
     const navigate = useNavigate();
     const handleButtonClick = () => {
-        window.location.href = "https://t.me/papo_official_bot"; // Navigate to the external link
+        window.location.href = "https://t.me/degen_town_bot"; // Navigate to the external link
     };
     return (
         <>
@@ -36,10 +36,10 @@ export default function RockingTn() {
                     </div>
                     <div className='row mx-0 mt-sm-0 mt-5 '>
                         {[
-                            { imgSrc: magnet, title: 'SEASON ONE', additionalImg: degenPeople1, status: 'CLOSED' },
+                            { imgSrc: magnet, title: 'SEASON ONE', additionalImg: degenPeople1, status: 'LIVE' },
                             { imgSrc: magnet, title: 'SEASON TWO', additionalImg: degenPeople2, status: 'CLOSED' },
                             { imgSrc: magnet, title: 'SEASON TREE', additionalImg: degenPeople3, status: 'CLOSED' },
-                            { imgSrc: magnet, title: 'GAME & TGE', additionalImg: degenPeople4, status: 'LIVE' }
+                            { imgSrc: magnet, title: 'GAME & TGE', additionalImg: degenPeople4, status: 'CLOSED' }
                         ].map((card, index) => (
                             <div className='col-lg-3 col-md-3 col-sm-3 col-6 mt-sm-3 mt-2 proCard col-custom' key={index}>
                                 <div className='includeCard'>

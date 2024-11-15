@@ -1,6 +1,7 @@
 import React from 'react'
 import Tokenomics from '../../assets/images/Tokenomics.svg'
-import Tokenomics2 from '../../assets/images/tokenomic.webp'
+// import Tokenomics2 from '../../assets/images/tokenomic.webp'
+import Tokenomics2 from '../../assets/images/tokenomics1.webp'
 export default function TokenoMics() {
   return (
     <div className='tokenoMicsSection'>

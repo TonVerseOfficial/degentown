@@ -7,7 +7,7 @@ export default function AirDrop() {
     <div className='airdropSec' id='airDrop'>
       <img src={airdrop} alt="" 
       style={{width:'90%'}} />
-      <Link to="https://t.me/degentown_bot" style={{ display : "contents" }}>
+      <Link to="https://t.me/degen_town_bot" style={{ display : "contents" }}>
         <Button variant='contained' className='claimBtn airBtn'>CLAIM AIRDROP </Button>
       </Link>
     </div>

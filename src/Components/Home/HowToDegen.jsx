@@ -1,6 +1,6 @@
 import React from "react";
 import tonKeeper from "../../assets/images/tonKeeperWallet.webp";
-import buyTon from "../../assets/images/buyTon.webp";
+import buyTon from "../../assets/images/buyTon1.webp";
 const HowToDegen = () => {
   return (
     <>
@@ -59,17 +59,18 @@ const HowToDegen = () => {
               justifyContent: "center",
             }}
           >
-            <h5 className="text-center potentialText ">
+            <h5 className="text-center potentialText" >
               BUY <br/>TON
             </h5>
-            <div style={{ display:'flex' , justifyContent:'center'}}>
+            <div style={{ display:'flex' , justifyContent:'center' }}>
               <img
                 src={buyTon}
                 style={{
                   contain: "content",
-                  width: "70%",
-                  height: "70%",
+                  width: "60%",
+                  height: "60%",
                 objectFit: "contain",
+
                 }}
               ></img>
             </div>

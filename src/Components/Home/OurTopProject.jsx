@@ -88,7 +88,7 @@ export default function OurTopProject({ raisedAmount }) {
                   <div className="hugeContent">
                     <img src={Coin} alt="" className="coinLogo" />
                     <div>
-                      <Styledh>BECOME A BRAVE NINJA</Styledh>
+                      <Styledh>BE A DEGEN</Styledh>
                       <p>
                         We already raised{" "}
                         {Math.round(raisedAmount).toLocaleString("de-CH")} USD!
@@ -104,7 +104,7 @@ export default function OurTopProject({ raisedAmount }) {
                     <div>
                       <Styledh>Presale Facts</Styledh>
                       <p>Up to 50 % Discount on TGE</p>
-                      <p>Total Raise Amount: 1,500,000 USD</p>
+                      <p>Total Raise Amount: 3,000,000 USD</p>
                       <p>
                         Sale Price: Check in our Telegram app for more
                         information.
@@ -147,7 +147,7 @@ export default function OurTopProject({ raisedAmount }) {
               <div className="mainTitle d-flex flex-column align-items-center mt-xxl-5 mt-4 pt-xxl-4 mt-0">
                 <p>
                   WE HAVE RAISED SO FAR IN <br className="d-lg-none d-block" />{" "}
-                  THE Presale SALE
+                  THE PRESALE
                 </p>
                 {/* Dynamic Bar */}
                 <div
@@ -174,7 +174,7 @@ export default function OurTopProject({ raisedAmount }) {
             <div className="row m-0">
               <div className="col-6 p-0">
                 <div className="thePatentialContent progressContent mt-xxl-5 mt-4">
-                  <div className="hugeContent">
+                  {/* <div className="hugeContent">
                     <img src={Coin} alt="" className="coinLogo" />
                     <div>
                       <Styledh>5 % OF TOKEN SUPPLY</Styledh>
@@ -195,14 +195,14 @@ export default function OurTopProject({ raisedAmount }) {
                         community through our token.
                       </p>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="col-6 p-0">
-                <div className="upgradeSec supplyCont progressContent">
+                {/* <div className="upgradeSec supplyCont progressContent">
                   <h3>5 % TOKEN SUPPLY</h3>
                   <h3>+ 10 % PRESALE POT </h3>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -271,7 +271,7 @@ export default function OurTopProject({ raisedAmount }) {
                 <div className="hugeContent">
                   <img src={Coin} alt="" className="coinLogo" />
                   <div>
-                    <Styledh>BECOME A BRAVE NINJA</Styledh>
+                    <Styledh>BE A DEGEN</Styledh>
                     <p>
                       We already raised{" "}
                       {Math.round(raisedAmount).toLocaleString("de-CH")} USD!
@@ -287,7 +287,7 @@ export default function OurTopProject({ raisedAmount }) {
                   <div>
                     <Styledh>Presale Facts</Styledh>
                     <p>Market Capitalization: 30 million USD</p>
-                    <p>Raise: 1,500,000 USD</p>
+                    <p>Raise: 3,000,000 USD</p>
                     <p>
                       Vesting: Linear Vesting, over a period of 3 months all the
                       tokens get release. One release every week.
@@ -320,7 +320,7 @@ export default function OurTopProject({ raisedAmount }) {
             <div className="mainTitle d-flex flex-column align-items-center mt-xxl-5 mt-4 pt-xxl-4 mt-0">
               <p>
                 WE HAVE RAISED SO FAR IN <br className="d-lg-none d-block" />{" "}
-                THE Presale SALE
+                THE PRESALE
               </p>
               {/* Dynamic Bar */}
               <div
@@ -347,7 +347,7 @@ export default function OurTopProject({ raisedAmount }) {
             <div className="row m-0 flex-sm-row flex-column-reverse">
               <div className="col-12">
                 <div className="thePatentialContent mt-4">
-                  <div className="hugeContent">
+                  {/* <div className="hugeContent">
                     <img src={Coin} alt="" className="coinLogo" />
                     <div>
                       <Styledh>5 % OF TOKEN SUPPLY</Styledh>
@@ -368,14 +368,14 @@ export default function OurTopProject({ raisedAmount }) {
                         community through our token.
                       </p>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="col-12">
-                <div className="supplyCont progressContent">
+                {/* <div className="supplyCont progressContent">
                   <h3>5 % TOKEN SUPPLY</h3>
                   <h3>+ 10 % PRESALE POT </h3>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

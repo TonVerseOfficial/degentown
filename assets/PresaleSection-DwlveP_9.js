@@ -1,4 +1,4 @@
-import{j as e,m as t}from"./index-UvMqqABW.js";const s="/website/assets/man1-WqswR7Uj.webp",o="/website/assets/man2-hmr4cac2.webp",r="/website/assets/man3-CTGTeGmF.webp",x=({stats:l})=>{const n=[{image:s,title:"BECOME A BRAVE DEGEN",description:`We already raised ${l.usdRaised.toLocaleString()} USD! Join the presale and be part of the winning Degen Town Team.`},{image:o,title:"PRESALE FACTS",description:`Up to 50% Discound on TGE.
+import{j as e,m as t}from"./index-B6IMmXTN.js";const s="/assets/man1-WqswR7Uj.webp",o="/assets/man2-hmr4cac2.webp",r="/assets/man3-CTGTeGmF.webp",x=({stats:l})=>{const n=[{image:s,title:"BECOME A BRAVE DEGEN",description:`We already raised ${l.usdRaised.toLocaleString()} USD! Join the presale and be part of the winning Degen Town Team.`},{image:o,title:"PRESALE FACTS",description:`Up to 50% Discound on TGE.
 Total Raise Amount: 1,500,000 USD
 Sale Price: Check in our Telegram App
 for more information`},{image:r,title:"VESTING SCHEDULE",description:`Linear Vesting: Token will be gradually released over a 3-month period.

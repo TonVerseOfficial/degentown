@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'ToonyLoons';
+  src: local('ToonyLoons'),
+       url('/src/assets/fonts/toony_loons.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'SuperMario';
+  src: local('SuperMario'),
+       url('/src/assets/fonts/SuperMario256.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'DigitalNumbers';
+  src: local('DigitalNumbers'),
+       url('/src/assets/fonts/DigitalNumbers-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-gray-900 text-gray-100 antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600;
+  }
+
+  .modal-gradient-border {
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    position: relative;
+  }
+
+  .modal-gradient-border::before {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    z-index: -1;
+    border-radius: inherit;
+    background: linear-gradient(109.44deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 61.78%),
+                linear-gradient(102.79deg, rgba(255, 255, 255, 0) 57.89%, rgba(255, 255, 255, 0.5) 100%);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    -webkit-mask-composite: xor;
+  }
+}

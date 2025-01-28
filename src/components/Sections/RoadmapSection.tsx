@@ -261,19 +261,7 @@ const RoadmapSection: React.FC = () => {
               />
 
               {/* Token Distribution Labels */}
-              {[
-                { percent: "25%", label: "EXCHANGES" },
-                { percent: "25%", label: "COMMUNITY INCETIVES" },
-                { percent: "15%", label: "MARKETING" },
-                { percent: "15%", label: "PRIVATE SALE" },
-                { percent: "5%", label: "SEED SALE" },
-                { percent: "5%", label: "OPERATIONS" },
-                { percent: "5%", label: "MM" },
-                { percent: "5%", label: "GAMIFICATION" },
-                { percent: "1%", label: "LIQUIDITY" },
-                { percent: "10%", label: "CEX LIQUIDITY" },
-                { percent: "3%", label: "TEAM" },
-              ].map((item, index) => {
+              {tokenomicsData.map((item, index) => {
                 const angleStep = 360 / 11;
                 const radius = donutSize * 0.65; // Donut boyutunun %65'i kadar yarıçap
                 const angleInRadians = (index * angleStep * Math.PI) / 180;

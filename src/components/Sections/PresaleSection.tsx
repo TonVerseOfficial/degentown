@@ -18,7 +18,7 @@ const PresaleSection: React.FC<PresaleSectionProps> = ({ stats }) => {
     },
     {
       image: man2,
-      title: "PRESALE FACTS",
+      title: "FAIR LAUNCH FACTS",
       description: "Up to 50% Discound on TGE.\n" +
       "Sale Price: Check in our Telegram App\n" + 
         "for more information"

@@ -20,16 +20,15 @@ const PresaleSection: React.FC<PresaleSectionProps> = ({ stats }) => {
       image: man2,
       title: "PRESALE FACTS",
       description: "Up to 50% Discound on TGE.\n" +
-        "Total Raise Amount: 1,500,000 USD\n" +
-        "Sale Price: Check in our Telegram App\n" + 
+      "Sale Price: Check in our Telegram App\n" + 
         "for more information"
     },
     {
       image: man3,
       title: "VESTING SCHEDULE",
-      description: "Linear Vesting: Token will be gradually released over a 3-month period.\n" +
-        "Weekly Unlocks: Starting 7 days after trading begins, tokens will be unlocked weekly.\n" +
-        "Full Release: All tokens will be fully unlocked by the end of the 3-month period."
+      description: "There is no vesting.\n" +
+        "Team tokens & advisor positions are vested over a period of 3 months." +
+        "Tokens held by the team are unlocked over a period of 12 months.\n."
     }
   ];
 

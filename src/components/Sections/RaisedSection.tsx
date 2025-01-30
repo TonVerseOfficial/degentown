@@ -105,7 +105,6 @@ const RaisedSection: React.FC<RaisedSectionProps> = ({ stats }) => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          Contributors in the Presale Stage will receive a DEGEN TOWN NFT which can be staked and permit them access to the PRESALE POT. 10% of all profits generate from the game, including earnings from in-app sales, sales of physical products, selling of traffic and revenues from YouTube clicks will be kicked back to the Degen Town Community through our token.
         </motion.p>
       </div>
     </section>

@@ -76,8 +76,8 @@ const ListingSection: React.FC = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h3 className="font-mario text-[#00E0FF] text-2xl md:text-3xl mb-4">TOP TIER EXCHANGES LISTINGS</h3>
-            <p className="font-toony text-white text-lg">Degen Town Token will be listed on major exchanges, making it easy to buy, sell & trade globally</p>
+            <h3 className="font-mario text-[#00E0FF] text-2xl md:text-3xl mb-4">TOP EXCHANGES LISTINGS</h3>
+            <p className="font-toony text-white text-lg">Degen Town Token will aim to list on major exchanges, making it easy to buy, sell & trade globally</p>
           </motion.div>
 
           {/* Partnership with Crypto KOLs */}
@@ -106,7 +106,7 @@ const ListingSection: React.FC = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h3 className="font-mario text-[#00E0FF] text-2xl md:text-3xl mb-4">TOP TIER EXCHANGES LISTINGS</h3>
+            <h3 className="font-mario text-[#00E0FF] text-2xl md:text-3xl mb-4">TOP INFLUENCERS</h3>
             <p className="font-toony text-white text-lg">We'll work with mainstream influencers to introduce Degen Town to a broader audience, expanding our reach beyond the crypto space.</p>
           </motion.div>
         </div>
@@ -120,8 +120,8 @@ const ListingSection: React.FC = () => {
         >
           <h3 className="font-mario text-[#00E0FF] text-2xl md:text-3xl mb-4">FACTS ABOUT THE LISTING</h3>
           <div className="font-toony text-white text-lg space-y-2">
-            <p>Degen Town Token will debut with a marketcap of 50 Million USD and a listing price of 0.05$</p>
-            <p>Launching on multiple exchanges</p>
+            <p>At a fair launch, everyone receives $degen at the same token price. BE EARLY - Don’t wait. The future is now.</p>
+            <p>The earlier you join, the more token bonus you receive.</p>
           </div>
         </motion.div>
       </div>

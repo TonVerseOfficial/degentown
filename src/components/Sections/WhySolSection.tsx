@@ -8,18 +8,18 @@ const WhySolSection: React.FC = () => {
   const features = [
     {
       image: dark1,
-      title: "IPO RUMMORS ON TG",
-      description: "Potential Telegram IPO could drive huge and boost market presence of Telegram Apps."
+      title: "IPO Rumors on TG",
+      description: "Potential Telegram IPO could drive huge and boost market presence of Telegram Apps. Solana has a huge audience of gamers"
     },
     {
       image: dark2,
-      title: "TG THE WECHAT OF WEST",
+      title: "Speed, Scale, and Success",
       description: "Telegram is positioning itself to compete with WeChat by expanding into e-Commerce, becoming a bigger social media platform and enabling payments via cryptocurrency, specifically using TON."
     },
     {
       image: dark3,
-      title: "THE UNDERDOG TON",
-      description: "The 900 Million Telegram Users are potential SOL users. Based on our analytics SOL is heavily undervalued and has as well no MASCOT Meme yet. Degen Town is set to become the TON Meme."
+      title: "Unstoppable Innovation",
+      description: "With unmatched speed, near-zero fees, and massive scalability, Solana is the ultimate blockchain for the future of crypto."
     }
   ];
 

@@ -74,11 +74,11 @@ const HowToGetSection: React.FC = () => {
 
             <div>
               <h3 className="font-mario text-[#00E0FF] text-2xl md:text-3xl mb-4">
-                LOOKING TO PARTICIPATE IN PRESALE
+                PARTICIPATE IN THE FAIRLAUNCH
               </h3>
               <p className="font-toony text-white text-lg md:text-xl">
                 Congrats, your SOL are now in your desentralized wallet. Make sure to participate 
-                only in our Presale if you send the funds from a decentralized wallet, like Solana 
+                only in our Fair Launch if you send the funds from a decentralized wallet, like Phantom 
                 or any other supported wallet. Sending funds from an exchange can lead to total loss 
                 as the token might not be supported from the exchange!
               </p>

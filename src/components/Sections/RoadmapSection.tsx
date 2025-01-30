@@ -27,32 +27,32 @@ const RoadmapSection: React.FC = () => {
 
   const roadmapItems = [
     {
-      title: "PRESALE",
-      description: "Launching Season ONE of the DEGEN TOWN Airdrop and Presale Sale to Kickstart the Degen Town Journey."
+      title: "Fair Launch",
+      description: "Launching the Fair Launch & the DEGEN TOWN Airdrop to Kickstart the Degen Town Journey."
     },
     {
-      title: "1ST MILLION USERS",
-      description: "Reaching 1 million users as our community begins to grow rapidly."
+      title: "10.000 Users",
+      description: "Reaching 10.000 users as our community begins to grow rapidly."
     },
     {
-      title: "LAUNCH GAME AIRDROP $1",
+      title: "LAUNCH GAME & AIRDROP",
       description: "Official Game Launch & Airdrop Season Two to boost player engagement."
     },
     {
-      title: "10 MILLION USERS",
-      description: "10 Million Users signaling widespread adoption"
+      title: "100.000 USERS",
+      description: "100.000 Users signaling widespread adoption"
     },
     {
-      title: "LAUNCH PRESALE SALE",
-      description: "Launching the Presale Sale & Airdrop season three, Attracting more investors"
+      title: "LISTING $DEGEN",
+      description: "Launching $DEGEN & atracting more holders"
     },
     {
-      title: "50 MILLION USERS",
-      description: "Achieving 50 Million users, Making Degen Town a Global Phenomena"
+      title: "500'000 USERS",
+      description: "Achieving 500'000 users, Making Degen Town a Global Phenomena"
     },
     {
-      title: "TGW & LISTING",
-      description: "Degen Town Token up for an exchange listing during the Token Generation Event"
+      title: "GROWTH MODE",
+      description: "Degen Town Token up for an exchange listings."
     },
     {
       title: "LAUNCH OF THE DEGEN TOWN VERSE",

@@ -15,7 +15,7 @@ const RaisedSection: React.FC<RaisedSectionProps> = ({ stats }) => {
   // Hedef miktar (örneğin: 5M USD)
   const targetAmount = 75000;
   // İlerleme yüzdesi hesaplama
-  const progressPercentage = Math.min((stats.usdRaised / targetAmount) * 100, 100);
+  const progressPercentage = Math.min((stats.totalUsdRaised / targetAmount) * 100, 100);
 
   return (
     <section className="relative py-32 overflow-hidden bg-white">
@@ -47,7 +47,7 @@ const RaisedSection: React.FC<RaisedSectionProps> = ({ stats }) => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            USD {formatNumber(stats.usdRaised)}
+            USD {formatNumber(stats.totalUsdRaised)}
           </motion.h1>
           {/* USD ${(stats.usdRaised / 1000000).toFixed(1)}M */}
           {/* İlerleme Çubuğu */}

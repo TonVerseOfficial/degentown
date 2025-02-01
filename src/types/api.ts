@@ -1,6 +1,6 @@
 export interface GameStats {
   degenTownPlayers: number;
-  usdRaised: number;
+  totalUsdRaised: number;
   totalSolRaised: number;
 }
 

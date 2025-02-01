@@ -28,7 +28,7 @@ const AirdropSection = lazy(() => import('./components/Sections/AirdropSection')
 function App() {
   const [stats, setStats] = useState<GameStats>({
     degenTownPlayers: 0,
-    usdRaised: 0,
+    totalUsdRaised: 0,
     totalSolRaised: 0
   });
 

@@ -14,7 +14,7 @@ const PresaleSection: React.FC<PresaleSectionProps> = ({ stats }) => {
     {
       image: man1,
       title: "BECOME A BRAVE DEGEN",
-      description: `We already raised ${stats.usdRaised.toLocaleString()} USD! Join the presale and be part of the winning Degen Town Team.`
+      description: `We already raised ${stats.totalUsdRaised.toLocaleString()} USD! Join the presale and be part of the winning Degen Town Team.`
     },
     {
       image: man2,

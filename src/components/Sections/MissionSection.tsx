@@ -74,7 +74,7 @@ const MissionSection: React.FC<MissionSectionProps> = ({stats}) => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              <h3 className="font-mario text-white text-5xl mb-2">${formatNumber(stats.usdRaised)}</h3>
+              <h3 className="font-mario text-white text-5xl mb-2">${formatNumber(stats.totalUsdRaised)}</h3>
               <p className="font-toony text-yellow-400 text-xl">USD Raised</p>
             </motion.div>
             <motion.div
@@ -136,7 +136,7 @@ const MissionSection: React.FC<MissionSectionProps> = ({stats}) => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
-                <h3 className="font-mario text-white text-6xl mb-3">${formatNumber(stats.usdRaised)}</h3>
+                <h3 className="font-mario text-white text-6xl mb-3">${formatNumber(stats.totalUsdRaised)}</h3>
                 <p className="font-toony text-yellow-400 text-2xl">USD Raised</p>
               </motion.div>
               <motion.div

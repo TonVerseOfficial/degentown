@@ -39,7 +39,7 @@ const MarqueeText: React.FC<MarqueeTextProps> = ({ stats }) => {
     `BITMART LISTING ANNOUNCEMENT`,
     `FIRST ${formatNumber(stats.degenTownPlayers)} USERS SIGNED UP!`,
     `AIRDROP S3 IS LIVE EARN POINTS AND MOVE UP`,
-    `SEED SALE CLOSED WITH ${formatNumber(stats.usdRaised)} RAISED`
+    `SEED SALE CLOSED WITH ${formatNumber(stats.totalUsdRaised)} RAISED`
   ];
 
   // Yazıları üç kez tekrarlayalım ki sürekli akış olsun

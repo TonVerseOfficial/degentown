@@ -10,7 +10,7 @@ export const fetchGameStats = async (): Promise<GameStats> => {
     console.error('Error fetching game stats:', error);
     return {
       degenTownPlayers: 0,
-      usdRaised: 0,
+      totalUsdRaised: 0,
       totalSolRaised: 0
     };
   }

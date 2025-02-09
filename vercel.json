@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+      {
+        "source": "/buy/:path*", 
+        "destination": "/buy/index.html"  
+      }
+    ]
+}
+  

@@ -4,5 +4,12 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  publicDir: ['public', 'buy'],
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        buy: resolve(__dirname, 'buy/index.html')
+      }
+    }
+  }
 })

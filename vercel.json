@@ -5,12 +5,12 @@
         "destination": "/buy/index.html"
       },
       {
-        "source": "/buy/(.*)",
-        "destination": "/buy/$1"
+        "source": "/buy/:path*",
+        "destination": "/buy/index.html"
       },
       { 
-        "source": "/(.*)",
+        "source": "/:path*",
         "destination": "/index.html"
       }
     ]
-  }
+}

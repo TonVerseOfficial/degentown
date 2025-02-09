@@ -1,18 +1,16 @@
 {
     "rewrites": [
-      { 
-        "source": "/((?!buy/.*).*)",
-        "destination": "/index.html"
-      }
-    ],
-    "routes": [
       {
-        "src": "/buy",
-        "dest": "/buy/index.html"
+        "source": "/buy",
+        "destination": "/buy/index.html"
       },
       {
-        "src": "/buy/(.*)",
-        "dest": "/buy/$1"
+        "source": "/buy/(.*)",
+        "destination": "/buy/$1"
+      },
+      { 
+        "source": "/(.*)",
+        "destination": "/index.html"
       }
     ]
   }

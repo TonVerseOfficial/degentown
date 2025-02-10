@@ -61,17 +61,14 @@ const RoadmapSection: React.FC = () => {
   ];
 
   const tokenomicsData = [
-    { percent: "25%", label: "EXCHANGES", color: "bg-[#8B4513]" },
-    { percent: "3%", label: "TEAM", color: "bg-[#FF69B4]" },
-    { percent: "5%", label: "GAMIFICATION", color: "bg-[#4169E1]" },
-    { percent: "15%", label: "MARKETING", color: "bg-[#808080]" },
-    { percent: "10%", label: "LIQUIDITY", color: "bg-[#87CEEB]" },
+    { percent: "20%", label: "FAIR LAUNCH", color: "bg-[#8B4513]" },
+    { percent: "5%", label: "COMMUNITY INCENTIVES", color: "bg-[#FF69B4]" },
+    { percent: "25%", label: "EXCHANGES", color: "bg-[#4169E1]" },
+    { percent: "5%", label: "TEAM", color: "bg-[#808080]" },
+    { percent: "25%", label: "DEX LIQUIDITY", color: "bg-[#87CEEB]" },
     { percent: "10%", label: "CEX LIQUIDITY", color: "bg-[#4682B4]" },
     { percent: "5%", label: "OPERATIONS", color: "bg-[#00CED1]" },
-    { percent: "5%", label: "MM", color: "bg-[#40E0D0]" },
-    { percent: "15%", label: "PRIVATE SALE", color: "bg-[#98FB98]" },
-    { percent: "5%", label: "SEED SALE", color: "bg-[#F0E68C]" },
-    { percent: "25%", label: "COMMUNITY INCETIVES", color: "bg-[#8B4513]" },
+    { percent: "5%", label: "MARKETMAKING", color: "bg-[#40E0D0]" }
   ];
 
   return (
@@ -262,7 +259,7 @@ const RoadmapSection: React.FC = () => {
 
               {/* Token Distribution Labels */}
               {tokenomicsData.map((item, index) => {
-                const angleStep = 360 / 11;
+                const angleStep = 360 / tokenomicsData.length;
                 const radius = donutSize * 0.65; // Donut boyutunun %65'i kadar yarıçap
                 const angleInRadians = (index * angleStep * Math.PI) / 180;
                 const x = Math.cos(angleInRadians) * radius;

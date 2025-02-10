@@ -14,7 +14,7 @@ const WhySolSection: React.FC = () => {
     {
       image: dark2,
       title: "Speed, Scale, and Success",
-      description: "Telegram is positioning itself to compete with WeChat by expanding into e-Commerce, becoming a bigger social media platform and enabling payments via cryptocurrency, specifically using TON."
+      description: "Solana is positioning itself as the ultimate blockchain for mass adoption by revolutionizing payments, powering next-gen decentralized applications, and scaling at lightning speed. With near-instant finality, ultra-low fees, and a thriving ecosystem, Solana is driving the future of crypto commerce, social integration, and seamless on-chain experiences."
     },
     {
       image: dark3,

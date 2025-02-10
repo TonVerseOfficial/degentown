@@ -15,7 +15,7 @@ const Header: React.FC = () => {
   ];
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50">
+    <header className="fixed top-0 left-0 w-full z-20 backdrop-blur-md bg-degen-blue bg-opacity-20 backdrop-opacity-35">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
@@ -50,6 +50,18 @@ const Header: React.FC = () => {
             ))}
           </nav>
 
+
+            <div className="flex items-center space-x-6">
+           {/* Buy Button */}
+           <motion.button
+            onClick={() => window.open('https://www.degentown.io/buy', '_blank')}
+            className="bg-yellow-400 hover:bg-yellow-300 text-degen-blue font-mario px-6 py-2 rounded-xl"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+              BUY
+          </motion.button>
+
           {/* Play Now Button */}
           <motion.button
             onClick={() => window.open(URLS.TELEGRAM_BOT, '_blank')}
@@ -59,6 +71,7 @@ const Header: React.FC = () => {
           >
             PLAY NOW
           </motion.button>
+          </div>
         </div>
       </div>
     </header>

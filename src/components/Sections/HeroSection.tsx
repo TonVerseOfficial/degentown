@@ -23,7 +23,7 @@ const ROUND_INFO: RoundInfo[] = [
   {
     date: new Date('2025-03-14T00:00:00Z'), // İlk rounddan 30 gün sonra
     roundNumber: 2,
-    bonusPercentage: 30
+    bonusPercentage: 40
   },
   {
     date: new Date('2025-04-14T00:00:00Z'), // İkinci rounddan 30 gün sonra

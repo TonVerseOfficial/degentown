@@ -7,7 +7,7 @@ import MarqueeText from './components/Common/MarqueeText';
 import { fetchGameStats } from './services/api';
 import { GameStats } from './types/api';
 import MissionSection from './components/Sections/MissionSection';
-
+import Timer from './components/Common/Timer';
 // Lazy loaded components
 const GameSection = lazy(() => import('./components/Sections/GameSection'));
 const LaunchSection = lazy(() => import('./components/Sections/LaunchSection'));
@@ -47,12 +47,16 @@ function App() {
 
   return (
     <div className="relative">
-      <MarqueeText stats={stats} />
-      <div className="relative">
+      <div className="fixed top-0 left-0 right-0 z-[51] flex flex-row items-center justify-center ">
+        <Timer />
+        <MarqueeText stats={stats} />
+      </div>
+     
+      <div className="relative mt-[100px]">
         {/* Hero bölümü için arka plan ve içerik */}
         <div className="relative min-h-screen">
           <Header />
-          <HeroSection />
+          <HeroSection stats={stats}   />
         </div>
         
         {/* Diğer bölümler */}

@@ -240,7 +240,7 @@ const RoadmapSection: React.FC = () => {
           </div>
 
           {/* Desktop görünüm */}
-          <div className="hidden md:block">
+          <div className="hidden md:block mb-44">
             <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               whileInView={{ opacity: 1, scale: 1 }}
@@ -272,7 +272,8 @@ const RoadmapSection: React.FC = () => {
                     style={{
                       left: `calc(50% + ${x}px)`,
                       top: `calc(50% + ${y}px)`,
-                      transform: `translate(-50%, -50%)`
+                      transform: `translate(-50%, -50%)`,
+      
                     }}
                     initial={{ opacity: 0, scale: 0 }}
                     whileInView={{ opacity: 1, scale: 1 }}

@@ -50,13 +50,13 @@ const HeroSection: React.FC<HeroSectionProps> = ({ stats }) => {
   const [logoLoaded, setLogoLoaded] = useState(false);
   const [backgroundLoaded, setBackgroundLoaded] = useState(false);
 
-  const [currentRound, setCurrentRound] = useState<RoundInfo>(() => {
+  const currentRound = (() => {
     const now = new Date();
     const nearestRound = ROUND_INFO.reduce((prev, curr) => {
       return (curr.date > now && (!prev || curr.date < prev.date)) ? curr : prev;
     }, null as RoundInfo | null);
     return nearestRound || ROUND_INFO[0];
-  });
+  })();
 
   useEffect(() => {
     // Arka plan görüntüsünü önden yükle

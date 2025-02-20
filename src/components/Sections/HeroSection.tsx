@@ -6,7 +6,7 @@ import logoImage from '../../assets/images/degen-logo.webp';
 import backgroundImage from '../../assets/images/bkg.webp';
 import { URLS } from '../../config/urls';
 import { GameStats } from '../../types/api';
-import { formatNumber } from '../../services/util';
+
 
 // Round bilgilerini içeren interface
 interface RoundInfo {
@@ -39,9 +39,7 @@ const ROUND_INFO: RoundInfo[] = [
   }
 ];
 
-// TimeLeft tipini tanımla
-type TimeUnit = 'days' | 'hours' | 'minutes' | 'seconds';
-type TimeLeft = Record<TimeUnit, number>;
+
 
 interface HeroSectionProps {
   stats: GameStats;
@@ -51,12 +49,6 @@ const HeroSection: React.FC<HeroSectionProps> = ({ stats }) => {
   const [imagesLoaded, setImagesLoaded] = useState(false);
   const [logoLoaded, setLogoLoaded] = useState(false);
   const [backgroundLoaded, setBackgroundLoaded] = useState(false);
-  const [timeLeft, setTimeLeft] = useState<TimeLeft>({
-    days: 0,
-    hours: 0,
-    minutes: 0,
-    seconds: 0
-  });
 
   const [currentRound, setCurrentRound] = useState<RoundInfo>(() => {
     const now = new Date();
@@ -65,43 +57,6 @@ const HeroSection: React.FC<HeroSectionProps> = ({ stats }) => {
     }, null as RoundInfo | null);
     return nearestRound || ROUND_INFO[0];
   });
-
-  useEffect(() => {
-    if (!currentRound) return;
-
-    const timer = setInterval(() => {
-      const now = new Date().getTime();
-      const distance = currentRound.date.getTime() - now;
-
-      if (distance < 0) {
-        const nextRounds = ROUND_INFO.filter(round => round.date.getTime() > now);
-        if (nextRounds.length > 0) {
-          const newRound = nextRounds[0];
-          setCurrentRound(newRound);
-
-          const newDistance = newRound.date.getTime() - now;
-          const days = Math.floor(newDistance / (1000 * 60 * 60 * 24));
-          const hours = Math.floor((newDistance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-          const minutes = Math.floor((newDistance % (1000 * 60 * 60)) / (1000 * 60));
-          const seconds = Math.floor((newDistance % (1000 * 60)) / 1000);
-
-          setTimeLeft({ days, hours, minutes, seconds });
-        } else {
-          clearInterval(timer);
-          setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
-        }
-      } else {
-        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-        setTimeLeft({ days, hours, minutes, seconds });
-      }
-    }, 1000);
-
-    return () => clearInterval(timer);
-  }, [currentRound]);
 
   useEffect(() => {
     // Arka plan görüntüsünü önden yükle

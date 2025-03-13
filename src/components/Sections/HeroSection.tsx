@@ -15,6 +15,7 @@ interface RoundInfo {
   bonusPercentage: number;
 }
 
+
 // Tüm round bilgilerini tanımla
 const ROUND_INFO: RoundInfo[] = [
   {
@@ -28,14 +29,24 @@ const ROUND_INFO: RoundInfo[] = [
     bonusPercentage: 40
   },
   {
-    date: new Date('2025-04-14T00:00:00Z'), // İkinci rounddan 30 gün sonra
+    date: new Date('2025-03-30T00:00:00Z'), // İkinci rounddan 15 gün sonra
     roundNumber: 3,
+    bonusPercentage: 30
+  },
+  {
+    date: new Date('2025-04-14T00:00:00Z'), // Üçüncü rounddan 15 gün sonra
+    roundNumber: 4,
     bonusPercentage: 25
   },
   {
-    date: new Date('2025-05-14T00:00:00Z'), // Üçüncü rounddan 30 gün sonra
-    roundNumber: 4,
+    date: new Date('2025-04-29T00:00:00Z'), // Dördüncü rounddan 15 gün sonra
+    roundNumber: 5,
     bonusPercentage: 20
+  },
+  {
+    date: new Date('2025-05-14T00:00:00Z'), // Beşinci rounddan 15 gün sonra
+    roundNumber: 6,
+    bonusPercentage: 15
   }
 ];
 
@@ -217,4 +228,4 @@ const HeroSection: React.FC<HeroSectionProps> = ({ stats }) => {
   );
 };
 
-export default HeroSection; 
+export default HeroSection;
